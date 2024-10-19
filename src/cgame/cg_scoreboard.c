@@ -374,7 +374,7 @@ int WM_DrawObjectives( int x, int y, int width, float fade ) {
 			msec = 0;
 		}
 
-		if ( msec && cgs.gamestate == GS_PLAYING) {
+		if ( msec ) {
 			seconds = msec / 1000;
 			mins = seconds / 60;
 			seconds -= mins * 60;

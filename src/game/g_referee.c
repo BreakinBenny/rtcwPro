@@ -889,7 +889,7 @@ void G_refRequestSS(gentity_t* ent) {
 
 	if (level.time - level.lastSSTime < g_ssWaitTime.integer * 1000)
 	{
-		CP(va("print \"Wait ^3%i ^7%s before requesting SS^1!\n\"", remainingTime, remainingTime == 1 ? "second" : "seconds"));
+		CP(va("print \"Wait ^3%i ^7second(s) before requesting SS^1!\n\""));
 		return;
 	}
 
